@@ -16,15 +16,15 @@ This project walks through the step-by-step process of building CodeMap, a struc
 
 📂 Project Structure
 
-/CodeMap
-│── /assets      # Images & Icons
-│── /css         # Stylesheets
-│── /js          # JavaScript Files
-│── index.html   # Main HTML File
-│── about.html   # About Us Page
-│── home.html    # Home Page
-│── login.html   # Login Page
-│── signup.html  # Signup Page
+
+│── /assets     
+│── /css        
+│── /js          
+│── index.html   
+│── about.html   
+│── home.html  
+│── login.html  
+│── signup.html  
 
 📌 To run the project: Open index.html in your browser.
 
