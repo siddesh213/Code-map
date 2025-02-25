@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* General Reset and Layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero-content h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .hero-content p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .cta-btn {
+            background-color: #fff;
+            color: #007bff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        .cta-btn:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        /* Resources Section */
+        #resources {
+            padding: 40px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        #resources h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .card p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        .card-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .card-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* About Us Section */
+        #about {
+            padding: 40px 20px;
+            background-color: #fafafa;
+            text-align: center;
+        }
+        #about h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        #about h3 {
+            font-size: 2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        #about p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        #about ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        #about ul li {
+            font-size: 1.1em;
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        footer ul li a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to  CodeMap</h2>
+            <p>Explore resources to improve your skills in programming, data science, and more!</p>
+            <a href="#resources" class="cta-btn">Start Learning</a>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Explore Learning Resources</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Python Roadmap</h3>
+                <p>Start your Python journey with our curated roadmap.</p>
+                <a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/YouTube/Python%20Roadmap.pdf" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>Python Tutorial</h3>
+                <p>Learn Python with our easy-to-follow tutorial playlist.</p>
+                <a href="https://youtube.com/playlist?list=PLdo5W4Nhv31bZSiqiOL5ta39vSnBxpOPT" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>C Notes and Resources</h3>
+                <p>Access free notes and resources for C programming.</p>
+                <a href="https://drive.google.com/drive/folders/1SEfL7Yw3nJfVLToz9MAuAm2_NoCCk1qD" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>C Tutorial</h3>
+                <p>Watch video tutorials for mastering C programming.</p>
+                <a href="https://youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>Java Roadmap</h3>
+                <p>Get started with Java and follow a structured learning path.</p>
+                <a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/Java_Complete_Notes.pdf" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>Java Tutorial</h3>
+                <p>Explore tutorials to become a Java expert.</p>
+                <a href="https://youtube.com/playlist?list=PLsyeobzWxl7pe_IiTfNyr55kwJPWbgxB5" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>Data Science Roadmap</h3>
+                <p>Understand the key steps to becoming a data scientist.</p>
+                <a href="https://drive.google.com/file/d/1rkwwcbxCzo8XwFNBxNIEx84_HoprS8Ec/view" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>Machine Learning Roadmap</h3>
+                <p>Follow our roadmap to master Machine Learning techniques.</p>
+                <a href="https://drive.google.com/file/d/1RLsgRR0qNkcxMjML8bz0r7ZtWjrG12pP/view" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>LinkedIn Profile Enhancement</h3>
+                <p>Get tips to optimize your LinkedIn profile for career growth.</p>
+                <a href="https://youtu.be/lzuiuRgwwrc" target="_blank" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h3>Resume templates</h3>
+                <p>Get tips to build your Resume</p>
+                <a href="https://docs.google.com/document/d/1xkC-8yFh_dcZeqrqu1rhCK6JSpjVYuJ-/edit?usp=drive_link&ouid=117198411475547848679&rtpof=true&sd=true" target="_blank" class="card-btn">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <h3>Welcome to CodeMap!</h3>
+            <p>We are a passionate team of 3rd-year students at BGSCET dedicated to helping learners explore programming, web development, data science, and more. Our goal is to provide a one-stop platform for valuable resources and guides that will help you grow your skills and advance in your learning journey.</p>
+
+            <h3>Our Mission</h3>
+            <p>At CodeMap, we aim to inspire and equip individuals with the knowledge they need to succeed in the tech world. We believe in creating an accessible and user-friendly experience for learners of all backgrounds.</p>
+
+            <h3>Our Team</h3>
+            <ul>
+                <li><strong>Siddesh S K</strong> - A 3rd-year student at BGSCET, passionate about programming.</li>
+                <li><strong>Shankargoud</strong> - A 3rd-year student at BGSCET, with a keen interest in coding.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CodeMap. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
